@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sport';
+
+  x:string;
+  title:string = 'sport';
+
+  calcul(a:number,b:number,c:number) {
+    return a+b+c;
+  }
 }
